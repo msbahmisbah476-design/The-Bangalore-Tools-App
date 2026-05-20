@@ -58,7 +58,7 @@ else:
     st.sidebar.divider()
     st.sidebar.subheader("Quick Contact")
     # WhatsApp Query Icon/Link
-    wa_query = send_whatsapp_msg("919345720346", "Hi Arif, I have a query about a tool.")
+    wa_query = send_whatsapp_msg("919845724046", "Hi Arif, I have a query about a tool.")
     st.sidebar.link_button("💬 Chat with Me (WhatsApp)", wa_query)
     
     if st.sidebar.button("Logout"):
